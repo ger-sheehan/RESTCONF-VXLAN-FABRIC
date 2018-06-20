@@ -1,0 +1,25 @@
+---
+
+nxapi_state: enabled
+bash_shell_state: enabled
+scp_server_state: enabled
+ospf_state: enabled
+bgp_state: enabled
+vn_segment_state: enabled
+lldp_state: enabled
+bfd_state: enabled
+nv_state: enabled
+evpn_state: enabled
+
+asn: 65001
+router_id: 1.1.1.1
+afi_1: ipv4-ucast
+afi_2: l2vpn-evpn
+bgp_neighbor_1: 3.3.3.3
+bgp_neighbor_2: 4.4.4.4
+source_interface: lo0
+
+ospf_process: 1
+ospf_area: 0.0.0.0
+ospf_router_id: 1.1.1.1
+
